@@ -1,0 +1,1 @@
+# astrogirl-nft-mintbot
