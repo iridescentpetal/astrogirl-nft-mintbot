@@ -1,6 +1,6 @@
 import { ASTRO_CONTRACT_ADDR,  astroContract } from "./contract";
 
-async function listenAstroMint(callback: (address: string) => void) {
+async function listenAstroMint(/*callback: (address: string) => void*/) {
     astroContract.on("Transfer", (from, to, tokenId, event) => {
         console.log("Is this working?")
     })
