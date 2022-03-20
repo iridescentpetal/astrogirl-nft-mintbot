@@ -1,0 +1,12 @@
+[Unit]
+Description=Astro Girls Society Mint Bot
+
+[Service]
+Type=simple
+User=zen
+WorkingDirectory=/home/zen/astrogirl-nft-mintbot
+ExecStart=/usr/bin/npm run start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
