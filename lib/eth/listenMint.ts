@@ -8,7 +8,7 @@ async function listenAstroMint(/*callback: (address: string) => void*/) {
     const filter = astroContract.filters.Transfer(ASTRO_CONTRACT_ADDR, null);
     
     astroContract.on(filter, (from, to, tokenId, event) => {
-        console.log(`Mint event, minted by wallet ${ to }.`);
+        console.log(`Mint event, Astro Girl #${ tokenId } minted by wallet ${ to }.`);
     });
 }
 
