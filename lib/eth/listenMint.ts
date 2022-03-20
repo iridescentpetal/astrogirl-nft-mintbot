@@ -8,12 +8,12 @@ async function listenAstroMint(/*callback: (address: string) => void*/) {
         console.log("TokenId:", tokenId);
 
         // Janky if statement to mimic filtering.
-        if (from == NULL_ADDRESS && to == ASTRO_CONTRACT_ADDR) {
+        if (from == NULL_ADDRESS) {
             console.log(`Mint event, Astro Girl #${ tokenId } minted.`);
         }
     })
     
-    const filter = astroContract.filters.Transfer(null, ASTRO_CONTRACT_ADDR);
+    const filter = astroContract.filters.Transfer(NULL_ADDRESS);
     
     astroContract.on(filter, (from, to, tokenId, event) => {
         console.log(`Mint event, Astro Girl #${ tokenId } minted.`);
