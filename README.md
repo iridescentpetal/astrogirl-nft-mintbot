@@ -21,3 +21,7 @@ DISCORD_CHANNEL_ID=<channel_id>
 $ npm install
 $ npm run start
 ```
+
+## Notes
+
+This bot has a limited lifespan until all 8888 Astro Girls are minted.
