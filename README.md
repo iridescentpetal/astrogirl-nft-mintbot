@@ -25,3 +25,10 @@ $ npm run start
 ## Notes
 
 This bot has a limited lifespan until all 8888 Astro Girls are minted.
+
+## Astro Girls Society
+
+- Mint here: https://mint.astrogirls.wtf/
+- General info here: https://www.astrogirls.wtf/
+
+I'm not part of the AGS team, just an Astro Girl NFT holder ❤️ #tothe月
