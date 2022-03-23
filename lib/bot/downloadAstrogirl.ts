@@ -8,6 +8,7 @@ async function downloadImage(url: string, filepath: string) {
                 res.pipe(createWriteStream(filepath))
                     .on('error', reject)
                     .once('close', () => resolve(filepath));
+                console.log('Astro Girl downloaded');
             } else {
                 // Consume response data to free up memory
                 res.resume();
