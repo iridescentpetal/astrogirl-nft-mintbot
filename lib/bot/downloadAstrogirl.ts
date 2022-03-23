@@ -1,7 +1,7 @@
 import { createWriteStream } from 'fs';
 import { get } from 'https';
 
-function downloadImage(url: string, filepath: string) {
+async function downloadImage(url: string, filepath: string) {
     return new Promise((resolve, reject) => {
         get(url, (res) => {
             if (res.statusCode === 200) {
