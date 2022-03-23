@@ -6,10 +6,10 @@ async function listenAstroMint(/*callback: (address: string) => void*/) {
         console.log("Transfer event at ", new Date());
     })
     
-    const filter = astroContract.filters.Transfer(ASTRO_CONTRACT_ADDR, null);
+    const filter = astroContract.filters.Transfer(null, ASTRO_CONTRACT_ADDR);
     
     astroContract.on(filter, (from, to, tokenId, event) => {
-        console.log(`Mint event, Astro Girl #${ tokenId } minted by wallet ${ to }.`);
+        console.log(`Mint event, Astro Girl #${ tokenId } minted.`);
         console.log("Minted at ", new Date());
     });
 }
