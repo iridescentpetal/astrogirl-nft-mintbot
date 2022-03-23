@@ -24,7 +24,7 @@ $ npm run start
 
 ## Notes
 
-This bot has a limited lifespan until all 8888 Astro Girls are minted.
+This bot has a limited lifespan. She will go to sleep when all 8888 Astro Girls are minted.
 
 ## Astro Girls Society
 
