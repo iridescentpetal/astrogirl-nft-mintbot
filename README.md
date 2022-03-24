@@ -2,7 +2,7 @@
 
 A Discord bot that will listen for [Astro Girl](https://etherscan.io/token/0xb21e760e7f74dd3c7b125ef21ba068abbc8adba8) mint events on the Ethereum chain and publish a message:
 
-<img width="1024" alt="Screen Shot 2022-03-22 at 9 50 05 PM" src="https://user-images.githubusercontent.com/101606918/159605880-1e5f0317-7fcc-4061-a9e6-f65042424639.png">
+<img width="705" alt="Screen Shot 2022-03-23 at 10 30 57 PM" src="https://user-images.githubusercontent.com/101606918/159830194-b791fd63-c722-4eab-aae8-8efc1518766a.png">
 
 ## Astro Girls Society
 
