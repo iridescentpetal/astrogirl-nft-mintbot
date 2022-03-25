@@ -1,4 +1,3 @@
-// TODO: Fill in logic to post to Twitter.
 import { Client, Intents, TextChannel } from "discord.js";
 
 class Bot {
@@ -47,7 +46,7 @@ class Bot {
       (fetchedChannel as TextChannel).send({
         content: message,
         files: [
-          `https://gateway.pinata.cloud/ipfs/QmPZuVJmwtHeTZVXzatQ36dR3k8RzmDcB6DA5BnYnAHXLh/${tokenId}.png`,
+          `https://astrogirls.mypinata.cloud/ipfs/QmPZuVJmwtHeTZVXzatQ36dR3k8RzmDcB6DA5BnYnAHXLh/${tokenId}.png`,
         ],
       });
     }
