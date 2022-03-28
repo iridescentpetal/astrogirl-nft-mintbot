@@ -11,7 +11,8 @@ async function go() {
     discords: [
       // Test discord
       { guildId: "907379771711815731", channelId: "907379771711815734" },
-      // TODO: Add AstroGirl Society discord.
+      // AstroGirl Society discord.
+      { guildId: "932201105960611870", channelId: "957834476237508658" },
     ],
   });
 }
