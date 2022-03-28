@@ -3,7 +3,7 @@ import Bot from "../bot/bot";
 
 interface Params {
   discordBot: Bot;
-  discords: [{ guildId: string; channelId: string }];
+  discords: { guildId: string; channelId: string }[];
 }
 
 async function listenAstroMint({ discordBot, discords }: Params) {
